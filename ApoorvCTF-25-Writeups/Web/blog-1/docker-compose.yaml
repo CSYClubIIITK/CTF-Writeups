@@ -1,0 +1,32 @@
+services:
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    environment:
+      JWT_SECRET: ShimmyShimmyahhShimmyahhahh
+      MONGO_URI: mongodb://mongodb:27017/mydatabase
+
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

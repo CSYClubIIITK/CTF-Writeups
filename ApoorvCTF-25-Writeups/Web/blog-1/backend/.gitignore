@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+dist/
+package-lock.json
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Nodemon
+.nodemon-debug.json
+
+# MacOS system files
+._*
+git remote add origin https://github.com/vijayvenkatj/blog-1-backend.git
+git branch -M main
+git push -u origin main

@@ -1,0 +1,15 @@
+{
+  "name": "jwt-vulnerable-server",
+  "version": "1.0.0",
+  "description": "A Node.js server vulnerable to JWT algorithm confusion attack (CVE-2015-9235)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "ejs": "^3.1.10",
+    "express": "4.14.0",
+    "fast-jwt": "3.3.1"
+  }
+}

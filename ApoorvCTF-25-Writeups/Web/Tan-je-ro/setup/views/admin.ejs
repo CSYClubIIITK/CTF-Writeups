@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { background-color: black; color: white; }
+        .container { background: rgba(0, 0, 0, 0.7); padding: 30px; border-radius: 10px; margin-top: 50px; }
+        .flag-box { background: rgba(255, 69, 0, 0.8); padding: 15px; border-radius: 5px; color: black; font-weight: bold; }
+    </style>
+</head>
+<body class="text-white text-center">
+    <div class="container">
+        <h1 class="display-3">🚀 Welcome to the Secret Chamber! 🚀</h1>
+        <p class="lead"><%= message %></p>
+        <div class="flag-box">
+            <h2>🏆 Flag: <%= flag %> 🏆</h2>
+        </div>
+        <pre class="text-light text-start mt-4"><%= JSON.stringify(decoded, null, 2) %></pre>
+    </div>
+</body>
+</html>

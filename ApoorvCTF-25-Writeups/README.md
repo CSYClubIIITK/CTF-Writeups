@@ -22,14 +22,14 @@ files/ if present, has the files that're given with the challenge\
 
 ### Winners:
 
-1. Team 0xL4ugh - Free Palestine - 11194 pts
-2. Team QnQSec - 9703 pts
-3. Team bi0s - 9203 pts
+1. Team 0xL4ugh - Free Palestine - 11111 pts
+2. Team QnQSec - 9620 pts
+3. Team bi0s - 9618 pts
 
 Special mentions:
 
-4. Team Untitled CTF Game - 8723 pts
-5. Team World Wide Flags - 7720 pts
+4. Team Untitled CTF Game - 8640 pts
+5. Team World Wide Flags - 7637 pts
 
 ### Stats
 

@@ -37,3 +37,45 @@ However, knowledge is a double-edged Dominator—wielded by those who understand
 🔍 Look within the early pages, where the foundations of reinforcement learning are laid.
 🔎 Inspect apoorvctf.pdf carefully, as it contains the key variables and equations necessary to reconstruct the GRPO value.
 ⚖️ The answer is absolute—as the Sibyl System judges without error, so must you derive the correct number.
+
+Code for calculating the GRPO's first iteration
+=============================================================================================================================================================================================
+```
+import numpy as np
+
+EPSILON = 0.5
+BETA = 0.2
+GROUP = 4
+
+def current_policy(x):
+    return (x**1.5) / (5**0.5)
+
+def old_policy(x):
+    return np.sqrt(x / 7)
+
+def reference_policy(x):
+    return (x**0.3) / 10
+
+input_probabilities = np.array([0.6, 0.5, 0.2, 0.5])
+rewards = np.array([1.27, 1.3, 0.6, 0.70])
+
+# Policy Ratio
+policy_ratio = current_policy(input_probabilities) / old_policy(input_probabilities)
+
+# Advantages
+rewards_mean = np.mean(rewards)
+rewards_std = np.std(rewards)
+advantages = (rewards - rewards_mean) / rewards_std
+
+# KL-Divergence
+kl_divergence = reference_policy(input_probabilities)/current_policy(input_probabilities) - np.log(reference_policy(input_probabilities) / current_policy(input_probabilities)) - 1
+
+# Clipping
+clipped_policy_ratio = np.clip(policy_ratio, 1 - EPSILON, 1 + EPSILON)
+
+
+# Final Function
+final = (np.minimum(policy_ratio * advantages, clipped_policy_ratio * advantages)) - (BETA * kl_divergence)
+final_div = final / GROUP
+```
+- The first element of final or final_div is the answer.

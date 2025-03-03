@@ -1,6 +1,6 @@
-# Lost in Encryption 🔐 [Miscellaneous]
+## Lost in Encryption 🔐 [Miscellaneous]
 
-**Author:** _Cosmicstar_, _NotAProton_
+**Author:** _orangcar_, _NotAProton_
 
 ## Challenge Description
 While traveling on the 22647 train, nearing Chennai, I captured an image of a place with an intriguing tower-like structure. Just as I was about to admire it, my ever-annoying brother decided to play a cruel joke—he encrypted the image using **AES-ECB** and, to make things worse, turned the key into an incomprehensible mess of symbols:

@@ -1,6 +1,6 @@
-# Rigged Roulette [Cryptography]
+## Rigged Roulette [Cryptography]
 
-**Author:** _Cosmicstar_
+**Author:** _orangcar_
 
 ## Challenge Description
 

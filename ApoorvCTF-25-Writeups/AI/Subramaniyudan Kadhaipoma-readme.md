@@ -20,10 +20,19 @@ source venv_name/bin/activate
 - python DB_Creater.py
 - python run.py
 
-### Writeup : 
-In the website, there's hidden text below the chatbox that matches the background color, providing a clue for the table name needed to initiate processing with Subramanium. The table name can be found in the `index.html` file under the `TableV` value. Additionally, there's a Tamil comment that points to another table called `administratos`, which grants special permission to access the database.
+### Writeup :  
 
-To proceed, intercept the packet being sent, modify it by updating the `TableV` value, and ensure the table name is included in the request. Once the correct table name is provided, asking a question about the database will reveal two flags for the two admins:
+On the website, a **hidden text element**—blending seamlessly with the background—rests beneath the chatbox, offering a crucial hint. 🕵️‍♂️ This concealed message reveals the **table name** needed to initiate processing with **Subramanium**. To uncover it, one must examine the `index.html` file and locate the **`TableV`** value. Additionally, a Tamil comment within the file references another table, **`gatekeepers`**, which holds **special privileges** for database access. 🔑  
 
-- **Enosh - BrainFuck Cipher**: This will give the URL to a YouTube video (a disguised rickroll). The video's description holds the key for the Vigenère Cipher.
-- **Vencaît - Vigenère Cipher**: This code, along with the key from the Brainfuck cipher, will unlock the CTF Flag.
+### **🚀 The Exploit Path**  
+
+1️⃣ **Intercept the Packet**: Capture the outgoing request. 📡  
+2️⃣ **Modify the Payload**: Update the **`TableV`** value to the correct table name. ✍️  
+3️⃣ **Send the Altered Request**: Once the correct table name is included, query the database. ✅  
+
+Upon successful execution, **two distinct flags** 🏴‍☠️ will be revealed—each tied to an admin:  
+
+- **🧠 Enosh – Brainfuck Cipher:** This leads to a disguised **YouTube rickroll** 🎵, with the video's description containing the **key** for the Vigenère Cipher. 🔑  
+- **🔐 Vencaît – Vigenère Cipher:** Using the extracted **key** from the Brainfuck cipher, one can decrypt this to unveil the **final CTF Flag**. 🏆  
+
+By following these steps, the **hidden layers of security unravel**, leading to the ultimate prize! 🎯✨

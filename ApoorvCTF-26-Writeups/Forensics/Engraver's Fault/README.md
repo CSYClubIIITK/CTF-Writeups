@@ -34,7 +34,7 @@ Modern day cameras are Made out of CMOS sensors(Complementary Metal-oxide Semico
 The important part for our discussion is Image sensor
 It kinda looks like this :
 
-![image](Attachments/Pasted image 20260309111501.png|290)
+<img src="Attachments/Pasted image 20260309111501.png" width="290">
 
 So basically, what happens, Lights(photon) strike onto the photodiode, whose energy then knocks out electron (creates electron hole pair), hence,now more are the photons, more electrons accumulate, this causes the proportional reading of brightness, Hence, Pixel electronics measure the accumulated electrons, The charge is converted to voltage, and then ADC(analog to digital converter) converts this to digital number(which we call pixel brightness)
 

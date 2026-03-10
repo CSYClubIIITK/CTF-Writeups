@@ -50,7 +50,6 @@ so the extraction become, R0R0R0R0R0R0R0R0R0.....
 1mod2=1->(G1)
 2mod2=0->(R0)
 3mod2=1->(G1)
-
 extraction becomes . R0G1R0G1R0G1R0G1
 
 >if we do integer mod 3 cycle

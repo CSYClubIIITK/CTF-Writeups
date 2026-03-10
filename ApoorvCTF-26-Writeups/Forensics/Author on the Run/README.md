@@ -254,11 +254,6 @@ print(f"Decoded flag: apoorvctf{{{flag_str}}}")
 ```
 
 
-<<<<<<< HEAD
-After running this, we get:
-
-![image](Attachments/Pasted image 20260309171011.png)
-=======
 After running this, we get, 
 <img src="Attachments/Pasted image 20260309171011.png">
 >>>>>>> 06e6741 (update writeups)

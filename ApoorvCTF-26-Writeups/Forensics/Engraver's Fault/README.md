@@ -9,6 +9,8 @@ In the sun-drenched workshops of Alexandria, it was whispered that no two gemsto
 
 Files given:
 Chal1.zip(containing gallery folder)
+Link: https://drive.google.com/drive/folders/14nPrKeUiYG0wqs1bvsLrS2sHxKj8DYs8?usp=sharing
+
 
 Author:nnnnn
 

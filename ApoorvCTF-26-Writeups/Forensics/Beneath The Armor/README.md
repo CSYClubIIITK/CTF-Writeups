@@ -28,7 +28,9 @@ once these parts are linked
 LSB/MSB and cycles, repetition, maths
 
 cycles,repetition,maths
+
 cycles,repetition,maths
+
 cycles,repetition,maths
 
 use 0 mapped to R, 1 Mapped to G, 2 mapped to B
@@ -58,6 +60,7 @@ extraction becomes . R0G1R0G1R0G1R0G1
 3mod3=0->(R0)
 4mod3=1->(G1)
 5mod3=2->(B2)
+>R0G1B2R0G1B2R0G1B2
 
 if we do integer mod4 cycle, there should be atleast 4 colors in image, so, we do not do that 
 

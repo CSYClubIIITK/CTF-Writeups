@@ -21,7 +21,7 @@ link:https://drive.google.com/drive/folders/1GZ8wQggKkCWaWBONHGvfUM8ck3s-44Ai?us
 
 When I was creating this challenge, I wanted to share an interesting attack that is physically posisble, and I found fascinating, Using just a Parabolic mic, and some training data, attackers could literally know your passwords, by recording your keyboard..
 
-Three major Research paper shaped this attacks , 
+Three major Research paper shaped these attacks , 
 - **Asonov & Agrawal (2004):Keyboard Acoustic Emanations
 - **Zhuang et al. (2009)**:Keyboard Acoustic Emanations Revisited
 - **Compagno et al. (2017)**:Don’t Skype & Type! Acoustic Eavesdropping in Voice-Over-IP
@@ -33,7 +33,7 @@ Key things I would like to note down, after reading these research papers are as
 - The attack works best with Blue or brown switches
 - he 2004 paper found that the most identifiable sound of a keytap is not its loud peak, but, instead, its onset, the exact, explosive ms the plastic keycap hits the baseplate, not your finger touching the key.This is why,they kept a strict 10ms windows, after which,echo starts
 
-- The 2009 paper by Zhuang specifically found that, keys can also echo, we need to keep this nuder consideration , A typical fast keyboard typer taks around 150ms to type(push,hold,release), To map the keyboard, Zhoung used Mel-Frequency Cepstral Coefficients(fancy terms for speech-recognition algorithm)
+- The 2009 paper by Zhuang specifically found that, keys can also echo, we need to keep this under consideration , A typical fast keyboard typer taks around 150ms to type(push,hold,release), To map the keyboard, Zhoung used Mel-Frequency Cepstral Coefficients(fancy terms for speech-recognition algorithm)
 - Later the latest research by Compagno proved that ,instead of FFT and MFCCs, we should combine them and use, to get better accuracy 
 -------------------------------------------------------
 

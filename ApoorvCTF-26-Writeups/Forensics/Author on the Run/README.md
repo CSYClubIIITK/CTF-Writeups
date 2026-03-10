@@ -254,9 +254,14 @@ print(f"Decoded flag: apoorvctf{{{flag_str}}}")
 ```
 
 
+<<<<<<< HEAD
 After running this, we get:
 
 ![image](Attachments/Pasted image 20260309171011.png)
+=======
+After running this, we get, 
+<img src="Attachments/Pasted image 20260309171011.png">
+>>>>>>> 06e6741 (update writeups)
 the flag , when we try to verify spells, 
 
 "oh you got this fawr dawmn", when checked, site says incorrect, which means, we could change it to ohyougotthisfardamn for it to spell correctly and try again, This is most probably due to noise or minute training data errors!!!!

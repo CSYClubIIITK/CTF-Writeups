@@ -21,7 +21,7 @@ When I was creating this challenge, I initially thought of finding a way to make
 
 So the story is about workshops in ancient Alexandria. Where Artisans and gem cutters used bronze drills to carve designs onto stones
 
-![image](Attachments/Pasted image 20260309110545.png|318)
+<img src="Attachments/Pasted image 20260309110545.png" width="318">
 
 now, further, it mentions, that however precise the cutters try, they could not ever make two identical designs, there would always be a mark of a stone due to some imperfections.....
 
@@ -101,7 +101,7 @@ You then try all general Image steg tools, binwalk, zsteg, file, foremost, aperi
 One thought that should immediately some to mind is IMG_ is taken from a camera/or a hardware that serially orders images in a specific format, Camera in this case. Now based on the challenge description, It is calling out to say, that, one could, say, a permanent mark/fingerprint of certain hardware. In this case camera, Once , we search online,We immediately get PRNU, and further studies on it
 
 You read about it and all
-![image](Attachments/Pasted image 20260309115937.png)
+<img src="Attachments/Pasted image 20260309115937.png">
 
 >Process
 
@@ -144,9 +144,9 @@ Now, We create a fingerprint using the img_files, go to ShutterTrace folder, run
 in --in, use your folder path to img_files
 it will now take some time to process all, i guess 103 images 
 
-![image](Attachments/Pasted image 20260309122612.png)
+<img src="Attachments/Pasted image 20260309122612.png">
 
-![image](Attachments/Pasted image 20260309122733.png)
+<img src="Attachments/Pasted image 20260309122733.png">
 
 
 Now that we have the fingerprint, 
@@ -162,7 +162,7 @@ lets verify 1st image in numbered_files, using inbuild Shuttertrace identificati
 --metric both
  ```
 
-![image](Attachments/Pasted image 20260309124231.png)
+<img src="Attachments/Pasted image 20260309124231.png">
 Its PCE is negative, so no match , first bit is 0
 
 lets verify 2nd image in numbered_files, using inbuild Shuttertrace identification 
@@ -176,7 +176,7 @@ lets verify 2nd image in numbered_files, using inbuild Shuttertrace identificati
 --metric both
  ```
 
-![image](Attachments/Pasted image 20260309124042.png)
+<img src="Attachments/Pasted image 20260309124042.png">
 PCE is greater than 40/50 ,matches, second bit is 1
 
 

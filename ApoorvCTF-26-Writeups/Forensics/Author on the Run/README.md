@@ -254,7 +254,8 @@ print(f"Decoded flag: apoorvctf{{{flag_str}}}")
 ```
 
 
-After running this, we get, 
+After running this, we get:
+
 ![image](Attachments/Pasted image 20260309171011.png)
 the flag , when we try to verify spells, 
 

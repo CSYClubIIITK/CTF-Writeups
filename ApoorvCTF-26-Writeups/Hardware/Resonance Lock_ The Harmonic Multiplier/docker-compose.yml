@@ -1,0 +1,24 @@
+# ───────────────────────────────────────────────────────────────────
+# docker-compose.yml — Harmonix-7 CTF Challenge
+# ───────────────────────────────────────────────────────────────────
+# Usage:
+#   docker compose up --build        (build & run)
+#   docker compose up -d             (detached)
+#   docker compose down              (stop)
+# ───────────────────────────────────────────────────────────────────
+
+services:
+  harmonix7:
+    build: .
+    container_name: harmonix7
+    ports:
+      - "1337:1337"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 128M

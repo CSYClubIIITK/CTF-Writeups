@@ -1,6 +1,6 @@
 >Challenge: Utopia p2
 >flag: apoorvctf{8.726_76.711}
-
+>Author: go6900
 Description: 
 
 John had been chasing the same lead for days, the artist. His last post was eerie and something new. The artist shares one last image of a statue, strange, bearing a resemblence to his style of art. Help john figure out where this was taken. 

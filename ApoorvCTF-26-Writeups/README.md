@@ -31,5 +31,5 @@ Special mentions:
 
 ### Stats
 ![stats1](stats1.jpg)
-![stats2](stats1.jpg)
+![stats2](stats2.jpg)
 

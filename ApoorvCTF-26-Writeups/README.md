@@ -14,7 +14,7 @@
 
 This is a repository for all the writeups of ApoorvCTF'26.
 
-#### Flag Format
+### Flag Format
 
 `apoorvctf{FLAG}`
 
@@ -28,4 +28,8 @@ Special mentions:
 
 4. Team Kosovo Albania Cyber Team - 8668 pts
 5. Team DIGGAJ - 8668 pts
+
+### Stats
+![stats1](stats1.jpg)
+![stats2](stats1.jpg)
 

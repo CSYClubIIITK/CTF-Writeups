@@ -1,0 +1,2 @@
+# No external dependencies — pure Python 3.12 stdlib.
+

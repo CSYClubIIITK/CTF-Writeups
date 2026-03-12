@@ -1,0 +1,18 @@
+services:
+  leaky-router:
+    container_name: leaky_router_ctf
+    init: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["python3", "-u", "-m", "rtun.server"]
+    ports:
+      - "3001:3001/tcp"
+    restart: unless-stopped
+    environment:
+      - FLAG=apoorvctf{tun3l_v1s10n_byp4ss}
+      - HOST=0.0.0.0
+      - PORT=3001
+      - TCP_BACKLOG=2048
+      - CLIENT_IDLE_TIMEOUT_SEC=60
+      - MAX_CONNECTION_LIFETIME_SEC=600
